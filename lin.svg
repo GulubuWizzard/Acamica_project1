@@ -1,0 +1,24 @@
+<svg width="34" height="34" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Linkedin logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1934 275)">
+<g id="Linkedin logo">
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1934 -275)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1934 -275)" fill="#474747"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(1944 -267)" fill="#474747"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 34 17C 34 26.3888 26.3888 34 17 34C 7.61116 34 0 26.3888 0 17C 0 7.61116 7.61116 0 17 0C 26.3888 0 34 7.61116 34 17Z"/>
+<path id="path1_stroke_2x" d="M 31 17C 31 24.732 24.732 31 17 31L 17 37C 28.0457 37 37 28.0457 37 17L 31 17ZM 17 31C 9.26801 31 3 24.732 3 17L -3 17C -3 28.0457 5.95431 37 17 37L 17 31ZM 3 17C 3 9.26801 9.26801 3 17 3L 17 -3C 5.95431 -3 -3 5.95431 -3 17L 3 17ZM 17 3C 24.732 3 31 9.26801 31 17L 37 17C 37 5.95431 28.0457 -3 17 -3L 17 3Z"/>
+<path id="path2_fill" d="M 3.58134 16L 0.264227 16L 0.264227 5.31786L 3.58134 5.31786L 3.58134 16L 3.58134 16ZM 1.921 3.86071C 0.860522 3.86071 0 2.98214 0 1.92143C 0 0.860714 0.860522 0 1.921 0C 2.98148 0 3.842 0.860714 3.842 1.92143C 3.842 2.98214 2.98148 3.86071 1.921 3.86071ZM 15.9964 16L 12.6865 16L 12.6865 10.8C 12.6865 9.56071 12.6615 7.97143 10.9618 7.97143C 9.23722 7.97143 8.973 9.31786 8.973 10.7107L 8.973 16L 5.65945 16L 5.65945 5.31786L 8.84088 5.31786L 8.84088 6.775L 8.8873 6.775C 9.33006 5.93571 10.412 5.05 12.0259 5.05C 15.3823 5.05 16 7.26071 16 10.1321L 16 16L 15.9964 16Z"/>
+</defs>
+</svg>

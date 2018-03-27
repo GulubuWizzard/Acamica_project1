@@ -1,0 +1,149 @@
+body {
+    background-color: #fafafa;
+    color: #363636;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-variant: all-small-caps;
+}
+
+a{
+    text-decoration: none;
+    color: #72e5bf;
+}
+/*Navegacion*/
+aside {
+    width: 22%;
+    float: left;
+    height: 100vh;
+    box-shadow: 1px 0px 9px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    position: fixed;
+}
+
+aside .profile {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+aside img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px; 
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+aside h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px; 
+    font-weight: 300;
+    margin-top: 0px;
+    opacity: 0.6;    
+}
+nav {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-variant: all-small-caps;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+nav li {
+    padding-bottom: 30px;
+}
+
+nav a {
+    color: #363636;
+}
+button {
+    background-color: #72e5bf;
+    font-variant: all-small-caps;
+    color: #fafafa;
+    border-radius: 8px;
+    width: 65%;
+    height: 45px;
+    line-height: 0;
+    padding-bottom: 8px;
+    border-style: none;
+    padding: 1px 2px 13px 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+button a {
+    color: #fafafa;
+    width: 100%;
+}
+button:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.footer{
+    height:12vh;
+    background-color: #575752;
+    width:100%;
+    text-align: center;
+    font-size: 16px;
+    }
+.footer i{
+    padding-top: 10px;
+    vertical-align: text-bottom;
+}
+.footer p{
+    font-variant: small-caps;
+    color: #f2f2f2;
+    line-height: 12px;
+    margin: 7px 0px 5px 0px;
+}
+.main-content {
+    height:88vh;
+}
+
+section {
+    float: right;
+    width: 76%;
+}
+
+.container {
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 20%;
+    height: 100vh;
+}
+
+.social {
+    position: fixed;
+    float: right;
+    margin-left: 92%;
+    margin-right:5%;
+}
+.social ul{
+    list-style: none;
+    margin-top: 25vh;
+}
+.social li{
+    padding-bottom: 15px;
+}
+.social-icon:hover path {
+    fill: #72e5bf;
+} 
