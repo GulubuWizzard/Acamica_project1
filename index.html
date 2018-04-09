@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
     <link rel="icon" type="image/png" href="img/faviconcv.png">
     <title>UX Designer | Raul Loureiro</title>
     <link rel="stylesheet" href="css/normalize.css">
@@ -17,9 +18,10 @@
 </head>
 
 <body>
+    <!-- Navegacion lateral-->
     <aside>
         <div class="main-content">
-            <div class="profile">
+            <div class="logo">
                 <img src="img/RLlogo.png" alt="logo raul loureiro">
                 <p class="frase">"Everyday a little better than the day before"</p>
             </div>
@@ -33,10 +35,12 @@
         </div>
         <div class="footer">
             <a href="CV-RaulLoureiro.pdf" target="_blank">
-                <i class="material-icons">file_download</i> Curriculum (PDF)</a>
+                <i class="material-icons">file_download</i> Curriculum (PDF)
+            </a>
             <p>#hechoamano en bs.as.</p>
         </div>
     </aside>
+    <!-- Fixed social icons -->
     <div class="social">
         <ul>
             <li>
@@ -66,7 +70,9 @@
             </li>
         </ul>
     </div>
+    <!-- Contenido principal -->
     <section>
+        <!-- Seccion Quien Soy -->
         <div class="container" id="quiensoy">
             <h1>Raul Loureiro
                 <span>UX Designer</span>
@@ -109,6 +115,7 @@
                 </div>
             </div>
         </div>
+        <!-- Seccion Experiencia -->
         <div class="container" id="experiencia">
             <h2>Experiencia</h2>
             <div class="row">
@@ -160,6 +167,7 @@
                 </div>
             </div>
         </div>
+        <!-- Seccion Estudios -->
         <div class="container" id="estudios">
             <h2>Estudios</h2>
             <div class="row">
@@ -172,7 +180,8 @@
                     <div class="card">
                         <h3>Diseño Multimedia y de Interaccion</h3>
                         <h4>Universidad Argentina de la Empresa (UADE)</h4>
-                        <p> Formacion para resolver problemas comunicacionales utilizando las ultimas tecnologias multimedia disponibles.</p>
+                        <p> Formacion para resolver problemas comunicacionales utilizando las ultimas tecnologias multimedia
+                            disponibles.</p>
                     </div>
                 </div>
             </div>
@@ -186,7 +195,8 @@
                     <div class="card">
                         <h3>Diplomatura en Usabilidad y Accesibiliidad Web</h3>
                         <h4>Universidad Tecnologica Nacional (UTN)</h4>
-                        <p> Diplomatura para incluir en el diseño, desarrollo y dirección de proyectos web criterios de accesibilidad y usabilidad basados en estándares y buenas prácticas.</p>
+                        <p> Diplomatura para incluir en el diseño, desarrollo y dirección de proyectos web criterios de accesibilidad
+                            y usabilidad basados en estándares y buenas prácticas.</p>
                     </div>
                 </div>
             </div>
@@ -200,105 +210,108 @@
                     <div class="card">
                         <h3>Farmacia</h3>
                         <h4>Universidad de Buenos Aires (UBA)</h4>
-                        <p> Conocimientos científicos y técnicos requeridos para formar profesionales farmacéuticos, integrantes del equipo de salud.</p>
+                        <p> Conocimientos científicos y técnicos requeridos para formar profesionales farmacéuticos, integrantes
+                            del equipo de salud.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Seccion Portfolio -->
         <div class="container" id="portfolio">
             <h2>Portfolio</h2>
             <div class="portfolio-container">
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/cv-icon.png" alt="proyecto1">
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/cv-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>CV Online</b>
+                        </h3>
+                        <p>HTML5 - CSS3</p>
+                    </div>
                 </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>CV Online</b>
-                    </h3>
-                    <p>HTML5 - CSS3</p>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/rompecabezas-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>rompecabezas</b>
+                        </h3>
+                        <p>Juego online con Javascript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/pixel-art-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>pixelart</b>
+                        </h3>
+                        <p>Aplicacion para dibujar con pixeles</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/ciudad-zombie-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>Ciudad Zombie</b>
+                        </h3>
+                        <p>Juego Online</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/encuestados-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>Encuestados</b>
+                        </h3>
+                        <p>Aplicacion de encuestas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/que-veo-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>Que veo?</b>
+                        </h3>
+                        <p>Aplicacion para elegir peliculas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/mapa-interactivo-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>Mapa interactivo</b>
+                        </h3>
+                        <p>Aplicacion con API de Google maps</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="img-container">
+                        <img src="img/peli-vs-peli-icon.png" alt="proyecto1">
+                    </div>
+                    <div class="info-proyecto">
+                        <h3>
+                            <b>Peli vs. Peli</b>
+                        </h3>
+                        <p>Aplicacion para valorar peliculas</p>
+                    </div>
                 </div>
             </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/rompecabezas-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>rompecabezas</b>
-                    </h3>
-                    <p>Juego online con Javascript</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/pixel-art-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>pixelart</b>
-                    </h3>
-                    <p>Aplicacion para dibujar con pixeles</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/ciudad-zombie-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>Ciudad Zombie</b>
-                    </h3>
-                    <p>Juego Online</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/encuestados-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>Encuestados</b>
-                    </h3>
-                    <p>Aplicacion de encuestas</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/que-veo-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>Que veo?</b>
-                    </h3>
-                    <p>Aplicacion para elegir peliculas</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/mapa-interactivo-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>Mapa interactivo</b>
-                    </h3>
-                    <p>Aplicacion con API de Google maps</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <div class="img-container">
-                    <img src="img/peli-vs-peli-icon.png" alt="proyecto1">
-                </div>
-                <div class="info-proyecto">
-                    <h3>
-                        <b>Peli vs. Peli</b>
-                    </h3>
-                    <p>Aplicacion para valorar peliculas</p>
-                </div>
-            </div>
-        </div>
 
         </div>
+        <!-- Seccion Contacto -->
         <div class="container" id="contacto">
             <h2>Contacto</h2>
             <div class="contact-row">
@@ -329,7 +342,7 @@
         </div>
     </section>
 
-    <!--smooth scrolling-->
+    <!--JS para el efecto de smooth scrolling-->
     <script>
         $(document).ready(function () {
             $("a").on('click', function (event) {
