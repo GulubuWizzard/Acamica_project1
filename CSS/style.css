@@ -142,13 +142,12 @@ section {
 
 .social {
     position: fixed;
-    float: right;
-    margin-left: 92%;
+    right: 3%;
+    top: 25%;
 }
 
 .social ul {
     list-style: none;
-    margin-top: 25vh;
 }
 
 .social li {
